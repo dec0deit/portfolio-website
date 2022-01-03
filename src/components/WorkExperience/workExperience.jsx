@@ -1,3 +1,5 @@
+import React from 'react';
+
 import "./workExperience.scss";
 
 export default function WorkExperience() {

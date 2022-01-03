@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './works.scss'
 export default function WorkExperience() {
   const data = [

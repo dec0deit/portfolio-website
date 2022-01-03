@@ -1,4 +1,7 @@
+import React from 'react';
+
 import "./skills.scss";
+
 
 import SkillBar from 'react-skillbars';
 const colors = {
