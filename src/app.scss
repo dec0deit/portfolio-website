@@ -1,9 +1,11 @@
 .app{
     height: 100vh;
-    background-color: #15023a;
+    background-color: #485461;
+background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
     .sections{
         width: 100%;
-        background-color: #15023a;
+        background-color: #485461;
+background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
         scroll-behavior: smooth;
     }
 }
