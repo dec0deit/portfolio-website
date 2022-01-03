@@ -8,7 +8,6 @@ import "./app.scss"
 import { useState } from "react";
 import Menu from "./components/menu/Menu";
 import SkillBars from "./components/skills/skills";
-import { Work } from "@material-ui/icons";
 
 function App() {
   const [menuOpen,setMenuOpen] = useState(false)

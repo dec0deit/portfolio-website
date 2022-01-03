@@ -1,8 +1,7 @@
 @import "../../global.scss";
 
 .works {
-  background-color: #485461;
-  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+  background-color: #222831;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -129,7 +128,7 @@
           }
         } 
         a{
-          color:rgb(124, 15, 15);
+          color:#222831;
           text-decoration: none;
           text-decoration: bold;
         }

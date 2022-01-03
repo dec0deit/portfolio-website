@@ -49,7 +49,7 @@ export default function WorkExperience() {
         {data.map((d) => (
           <div className={d.featured ? "card1 featured" : "card1"}>
             <div className="bottom">
-              <a href={d.link} style={{color:'#15023a',textDecoration:'underline'}}>
+              <a href={d.link} style={{color:'#222831',textDecoration:'underline'}}>
                 <h3>{d.name}</h3>
               
               </a><h4>{d.title}</h4>
@@ -58,7 +58,7 @@ export default function WorkExperience() {
               {d.desc}
             </div>
             {d.appLink?<h4>
-              <a href={d.appLink} style={{color:'#15023a',textDecoration:'underline'}}>
+              <a href={d.appLink} style={{color:'#222831',textDecoration:'underline'}}>
                 <h3>App Link</h3>
               
               </a>
