@@ -10,7 +10,7 @@ export default function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed:60,
-      strings: [" A NIT Undergraduate ","Soft. Developer", "Competitive Progammer", "Freelancer"],
+      strings: ["A NIT Undergraduate ","Software Engineer", "Competitive Programmer", "Freelancer","Placement Coordinator"],
     });
   }, []);
 

@@ -10,7 +10,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             de_c0de_it
           </a>
           <div className="itemContainer">
-            <a href="singlanipun@gmail.com">
+            <a href="mailto:singlanipun@gmail.com">
             <Mail className="icon" />
             <span>
              Mail
@@ -18,7 +18,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
               </a>
           </div>
           <div className="itemContainer">
-            <a href="singlanipun@gmail.com">
+            <a href="https://www.linkedin.com/in/nipun-gupta-834946170/">
             <LinkedIn className="icon" />
             <span>
              LinkedIn
@@ -26,7 +26,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
               </a>
           </div>
           <div className="itemContainer">
-            <a href="singlanipun@gmail.com">
+            <a href="https://github.com/dec0deit">
             <GitHub className="icon" />
             <span>
              Github
@@ -34,7 +34,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
               </a>
           </div>
           <div className="itemContainer">
-            <a href="singlanipun@gmail.com">
+            <a href="https://www.instagram.com/de_c0de_it/">
             <Instagram className="icon" />
            <span>
              Instagram
@@ -42,7 +42,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
               </a>
           </div>
           <div className="itemContainer">
-            <a href="singlanipun@gmail.com">
+            <a href="https://drive.google.com/file/d/1pu2RKgkTgzFmXbpkLXEPBziMP2v8PU3u/view?usp=sharing">
             <FileCopyRounded className="icon" />
             <span>
              CV

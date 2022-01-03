@@ -9,6 +9,7 @@ import {
   FreelancingPortfolio,
   SkillsPortfolio,
   CoursesPortfolio,
+  ExtraCurriculumPortfolio
 } from "../../data";
 
 
@@ -58,7 +59,22 @@ return <div className="container">
 
 }
 
-
+function ExtraCurriculumComponent(){
+  return <div className="container">
+      {ExtraCurriculumPortfolio.map((d)=>
+        <div className="item">
+        <img
+          src={d.img}
+          alt=""
+        />
+        <h3>{d.title}</h3>
+      </div>
+      )}
+      </div>
+  
+  }
+  
+  
 
 
 
@@ -69,8 +85,8 @@ export default function Portfolio() {
   const [id,setID] = useState(1);
   const list = [
     {
-      id: "Cp Platforms",
-      title: "Cp Platforms",
+      id: "Coding Platforms Profile",
+      title: "Coding Platforms Profile",
     },
     {
       id: "Skills",
@@ -79,6 +95,10 @@ export default function Portfolio() {
     {
       id:"Courses/Certificates",
       title:"Courses/Certificate"
+    },
+    {
+      id:"ExtraCurriculum",
+      title:"ExtraCurriculum"
     }
   ];
 
@@ -93,12 +113,9 @@ export default function Portfolio() {
       case "Skills":
         setID(3);
         break;
-      case "Freelancing Work":
+      case "ExtraCurriculum":
         setID(4);
       break;
-      case "Projects":
-        setID(5);
-        break;
       default:
         setID(1);
         
@@ -120,7 +137,8 @@ export default function Portfolio() {
       </ul>
       <div className="container">
         {
-          id == 1 ? <AlgorithmComponent/> : id ==2 ? <CoursesComponent/> : id == 3 ? <SkillsComponent/> : <AlgorithmComponent></AlgorithmComponent>
+          id == 1 ? <AlgorithmComponent/> : id ==2 ? <CoursesComponent/> : id == 3 ? <SkillsComponent/> : id==4 ?
+          <ExtraCurriculumComponent/> : <AlgorithmComponent/>
         }
       </div>
     </div>

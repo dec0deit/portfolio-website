@@ -166,4 +166,23 @@ export const WorkExperiencePortfolio = [
   ];
   
   
+  export const ExtraCurriculumPortfolio = [
+    {
+      id: 1,
+      title: "Badminton Player",
+      img:"https://www.bing.com/th?id=OIP.Z1wwhA9yZknC6bsDx6soPwHaE8&w=140&h=95&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2"
+    },
+    {
+      id: 2,
+      title: "Part of sponsorship and dev team in TechnoByte(NIT KKR)",
+      img:"https://th.bing.com/th/id/OIP.drGt-dCcCuHL6m5iZTX7rQHaDG?w=350&h=146&c=7&r=0&o=5&dpr=1.25&pid=1.7"
+    },
+    {
+      id: 3,
+      title: "Mime Performer",
+      img:"https://th.bing.com/th?q=Mime+Paris&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.25&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247"
+    },
+  ];
+  
+  
   
