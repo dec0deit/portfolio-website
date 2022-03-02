@@ -23,7 +23,7 @@ function AlgorithmComponent(){
         src={d.img}
         alt=""
       />
-      <h3>Click Me</h3>
+      <h3>Go ✅</h3>
      <a href=""/>
     </a>
     )}
